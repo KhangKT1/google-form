@@ -1,0 +1,88 @@
+.form-container{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(122, 120, 120);
+    border-radius: 10px;
+    max-width: 600px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.title{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.support-title{
+    font-size: 20px;
+}
+.logo{
+    width: 100px;
+}
+.form-row{
+    margin-bottom: 20px;
+}
+.form-input{
+    width: 100%;
+    height: 30px;
+    border: 0.5px solid rgb(168, 168, 168);
+    border-radius: 5px;
+}
+.input-cb{
+    height: 20px;
+    vertical-align: middle;
+}
+.login{
+    text-align: left;
+    margin-top: 20px;
+}
+.login a{
+    text-decoration: none;
+    color: rgb(24, 107, 216);
+    margin-top: 5px;
+    font-weight: 100px;
+    font-size: 17px;
+    float: left;
+}
+.form-button{
+    text-align: right;
+}
+.login-btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(63, 142, 247);
+    border: 0.5px solid rgb(63, 142, 247);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.login-btn:hover{
+    background: rgb(47, 128, 235);
+}
+
+.note--1::after{
+    content: "Bạn có thể sử dụng chữ cái, số và dấu chấm";
+    vertical-align:text-bottom;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.note--2::after{
+    content: "Sử dụng 8 ký tự trở lên và kết hợp chữ cái, chữ số và biểu tượng";
+    vertical-align: text-bottom;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.note--3::after{
+    content: "Hiện mật khẩu";
+    vertical-align: middle;
+    font-weight: 15px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+

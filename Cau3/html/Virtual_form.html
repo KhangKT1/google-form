@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Course Registration</title>
+    <link rel="stylesheet" href="../html/css/Virtual.css">
+</head>
+<body>
+    <form action="" method="get" class="form-container">
+        <div class="form-header">
+            <p class="title">Virtual Course Registration Form</p>
+        </div>
+        <hr>
+        <div class="form-body">
+            <div class="form-cb">
+                <p class="cb-title">What program are you planning to enroll with?</p>
+                <div class="input-field">
+                    <input type="checkbox" class="input_cb">Continuing Professional Development <br>
+                    <input type="checkbox" class="input_cb">Short Courses <br>
+                    <input type="checkbox" class="input_cb">Skills Training <br>
+                </div>
+            </div>
+            <div class="form-content">
+                <p class="content-title">Student Information</p>
+                <div class="form-row">
+                    <label class="form-label">Student Name</label>
+                    <div class="two-col">
+                        <div class="field">
+                            <input type="text" class="form-input">
+                            <span class="note--1"></span> 
+                        </div>
+                        <div class="field">
+                            <input type="text" class="form-input">
+                            <span class="note--2"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="two-col--1">
+                        <div class="field">
+                            <label for="" class="form-label">Giới tính</label> <br>
+                            <input type="radio" value="male" name="gender" id="male">Male <br>
+                            <input type="radio" value="female" name="gender" id="female">Female <br>
+                            <label for="" class="form-label">Phone Number</label> <br>
+                            <input type="tel" class="form-input" placeholder="(000)000-0000">
+                        </div>
+                        <div class="field">
+                             <label for="" class="form-label">Write something about yourself</label>
+                             <textarea name="message" id="textarea" cols="30" rows="8" placeholder="Type here..."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-button">
+                    <input type="submit" value="Enroll Now" class="input-btn">
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

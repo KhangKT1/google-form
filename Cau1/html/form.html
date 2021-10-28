@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="../html/css/dangkynguoidung.css">
+</head>
+<body>
+   <div class="form-container">
+       <div class="form-header">.: ĐĂNG KÝ NGƯỜI DÙNG :.</div>
+       <hr class="separate">
+       <form action="" method="get">
+           <div class="form-container--1">
+               <div class="form-row">
+                   <label for="username" class="form__label">Tên đăng nhập:</label>
+                   <input type="text" class="form__input" name="name" id="username"> <span class="mandantory">*</span>
+               </div>
+               <div class="form-row">
+                   <label for="password" class="form__label">Mật khẩu:</label>
+                   <input type="text" class="form__input" name="password" id="password">  <span class="mandantory">*</span>(Tối thiểu 5 ký tự)
+               </div>
+               <div class="form-row">
+                   <label for="rewrite-password" class="form__label">Gõ lại mật khẩu:</label>
+                   <input type="text" class="form__input" name="rewrite-password" id="rewrite-password"> <span class="mandantory">*</span>
+               </div>
+           </div>
+           <hr class="separate">
+           <div class="form-container--2">
+               <div class="form-note"> :: Nhập thông tin để lấy lại mật khẩu khi quên</div>
+               <div class="form-row">
+                   <label for="questions">Câu hỏi bí mật:</label>
+                   <select>
+                       <option value="Chọn câu hỏi">Chọn câu hỏi</option>
+                       <option value=""></option>
+                       <option value=""></option>
+                   </select>
+               </div>
+               <div class="form-row">
+                   <label for="answer">Trả lời:</label>
+                   <input type="text" name="answer" id="answer">
+               </div>
+           </div>
+           <hr class="separate">
+           <div class="form-container--3">
+               <div class="form-note"> 
+                   :: Thông tin cá nhân
+                </div>
+                <div class="form-row">
+                    <label for="fullname">Họ và chữ lót: </label>
+                    <input type="text" name="fullname" id="fullname">
+                </div>
+                <div class="form-row">
+                    <label for="name">Tên: </label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-row">
+                    <label for="DOB">Ngày sinh:</label>
+                    <select name="DOB" id="month">
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <span>,</span>
+                    <input type="text" name="day" id="day">
+                    <span>,</span>
+                    <input type="text" name="year" id="year">
+                    <span class="note"></span>
+                </div>
+                <div class="form-row">
+                    <label>Giới tính</label>
+                    <input type="radio" value="male" name="gender" id="male">Nam
+                    <input type="radio" value="female" name="gender" id="female">Nữ
+                </div>
+                <div class="form-row">
+                    <label for="job">Nghề nghiệp liên quan:</label>
+                    <select>
+                        <option value="choosefield">Chọn ngành nghề</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </div>
+                <hr class="separate">
+                <div class="form-container--4">
+                    <div class="form-note"> 
+                        :: Sở thích (tuỳ chọn)
+                    </div>
+                    <div class="form-cb">
+                        <input type="checkbox">Âm nhạc
+                        <input type="checkbox">Du lịch
+                        <input type="checkbox">Nghiên cứu
+                        <input type="checkbox">Kinh doanh
+                    </div>
+                </div>
+                <hr class="separate">
+                <div class="form-btn">
+                    <input type="submit" value="Đăng ký">
+                    <input type="reset" value="Xoá">
+                </div>
+           </div>
+       </form>
+   </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+.form-container{
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(122, 120, 120);
+    border-radius: 10px;
+    max-width: 500px;
+    padding: 20px;
+    margin-top: 40px;
+}
+.title{
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.form-row{
+    margin: 20px;
+}
+.form-label{
+    font-weight: bold;
+}
+.form-input{
+    height: 30px;
+    width: 100%;
+    border: 0.5px solid rgb(143, 142, 142);
+    border-radius: 5px;
+}
+.three-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.field{
+    margin-right: 50px;
+}
+.select{
+    width: 40%;
+    height: 30px;
+    border: 0.5px solid rgb(143, 142, 142);
+    border-radius: 5px;
+}
+.note--1::after{
+    content: "First Name";
+    vertical-align:middle;
+    font-size: 12px;
+}
+.note--2::after{
+    content: "Middle Name";
+    vertical-align: middle;
+    font-size: 12px;
+}
+.note--3::after{
+    content: "Last Name";
+    vertical-align:middle;
+    font-size: 12px;
+}
+.note--4::after{
+    content: "example@example.com";
+    vertical-align:middle;
+    font-size: 12px;
+}
+.form-button{
+    text-align: center;
+}
+.input-btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(69, 182, 87);
+    border: 0.5px solid rgb(69, 182, 87);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.input-btn:hover{
+    background-color:rgb(56, 161, 73);
+}
